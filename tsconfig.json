@@ -1,5 +1,5 @@
 {
-    "files": [
+    "include": [
         "src/**/*.ts"
     ],
     "exclude": [
@@ -22,8 +22,6 @@
         "noEmitOnError": true,
         "outDir": "dist",
         "sourceMap": true,
-        "allowJs": false,
-        "checkJs": true,
         "disableSizeLimit": true,
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
