@@ -1,10 +1,6 @@
 {
-    "include": [
-        "src/**/*.ts"
-    ],
-    "exclude": [
-        "src/**/*.spec.ts"
-    ],
+    "include": ["src/**/*.ts"],
+    "exclude": ["src/**/*.spec.ts"],
     "compilerOptions": {
         "allowUnreachableCode": false,
         "allowUnusedLabels": false,
@@ -17,12 +13,14 @@
         "noPropertyAccessFromIndexSignature": true,
         "noUncheckedIndexedAccess": true,
         "baseUrl": "src",
-        "resolveJsonModule": true,
         "rootDir": "src",
         "noEmitOnError": true,
         "outDir": "dist",
         "sourceMap": true,
+        "allowJs": false,
         "disableSizeLimit": true,
+        "module": "CommonJS",
+        "moduleResolution": "node",
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "emitDecoratorMetadata": true,
